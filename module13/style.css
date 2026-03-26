@@ -1,0 +1,15 @@
+div{
+    overflow: scroll;
+    background-color: rgb(112, 65, 43);
+    height: 200px;
+    width: 200px;
+}
+table{
+border-collapse: collapse;
+width:100% ;
+
+}
+td ,th {
+border: 2px solid black;
+text-align: center;
+}
