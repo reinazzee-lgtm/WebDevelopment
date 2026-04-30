@@ -1,0 +1,33 @@
+body{
+    counter-reset: number;
+}
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: rgb(163, 28, 28);
+    border-radius: 50%;
+    padding: 5px 12px;
+    color: black;
+    margin: 10px;
+
+}
+:root{
+    --primary-color:#06206a;
+    --ngjyra_e_dyte:#fff;
+    --padding:20px
+}
+.vars{
+    background-color: var(--primary-color);
+    color: var(--ngjyra_e_dyt);
+    padding:var(--padding)
+}
+.rounded{
+    display: flex;
+}
+.rounded #example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius:20px;
+    background: url(images.png);
+}
