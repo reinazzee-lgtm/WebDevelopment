@@ -1,0 +1,113 @@
+body{
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    animation: slideDown 0.8s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+header{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+header h1{
+  margin-bottom: 10px ;
+  font-size: 90px;
+}
+
+header nav a:hover {
+color: #94d2bd;
+
+}
+main{
+    padding: 20px;
+
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+
+section h2{
+    margin-bottom: 15px;
+    color: #0a9396;
+
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse ;
+    margin-bottom: 10px;
+
+}
+th, td{
+padding: 10px;
+border: 1px solid #ccc;
+text-align: left;
+}
+
+th{
+    background-color: #005f73;
+    color: white;
+}
+form label{
+    font-weight: bold;
+}
+
+form button {
+    background-color: #0a9396;
+    color: white;
+    border: none;
+}
+form button:hover {
+    background-color: #94d2bd;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    background-color: #0a9396;
+    transform: translateY(-2px);
+}
+
+nav a:active {
+    background-color: #94d2bd;
+}
+footer{
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
